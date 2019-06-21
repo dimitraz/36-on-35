@@ -1,0 +1,22 @@
+<ul id="post-list">
+    {{ range where .Paginator.Pages "Params.hidden" "ne" "true" }}
+    {{ $url := replace .Permalink .Site.BaseURL "" }}
+    {{ if ne $url "about/" }}
+    <li>
+
+        <div class="grid">
+
+            <div class="grid__col grid__col--2-of-5">
+                <a href='{{ .Permalink }}'>
+                    <h3>{{ .Title }}</h3>
+                </a>
+                {{ .Date.Format "Jan 2" }}
+            </div>
+            <div class="grid__col grid__col--3-of-5">
+                <img src="{{ .Params.image }}" style="max-height: 400px; width: auto">
+            </div>
+        </div>
+    </li>
+    {{ end }}
+    {{ end }}
+</ul>
