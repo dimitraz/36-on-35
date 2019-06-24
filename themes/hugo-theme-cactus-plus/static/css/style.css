@@ -1,5 +1,18 @@
 /* Reset */
 
+/*font-family: 'NeueHaasUnica';*/
+@font-face {
+    font-family: 'NeueHaasUnica';
+    src: url('../fonts/NeueHaasUnica/NeueHaasUnicaPro-Medium.eot');
+    src: url('../fonts/NeueHaasUnica/NeueHaasUnicaPro-Medium.woff2') format('woff2'),
+        url('../fonts/NeueHaasUnica/NeueHaasUnicaPro-Medium.woff') format('woff'),
+        url('../fonts/NeueHaasUnica/NeueHaasUnicaPro-Medium.ttf') format('truetype'),
+        url('../fonts/NeueHaasUnica/NeueHaasUnicaPro-Medium.svg#NeueHaasUnicaPro-Medium') format('svg'),
+        url('../fonts/NeueHaasUnica/NeueHaasUnicaPro-Medium.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html,
 body,
 div,
@@ -85,7 +98,8 @@ video {
     font: inherit;
     vertical-align: baseline;
     margin: 0;
-    padding: 0
+    padding: 0;
+    font: "NeueHaasUnica";
 }
 
 article,
@@ -221,17 +235,18 @@ body {
 }
 
 body {
-    font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 16px/1 "NeueHaasUnica", "Helvetica Neue",
+        Helvetica,
+        Arial,
+        sans-serif;
     color: #666;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
 
 h1 {
-    font-size: 30px;
-    letter-spacing: -1px;
-    color: #222;
-    font-weight: bold;
+    font-size: 26px;
+    font-weight: normal;
 }
 
 h2 {
@@ -328,15 +343,15 @@ nav.main-nav a.cta {
 }
 
 #wrapper {
-    max-width: 70%;
+    max-width: 80%;
     margin: 0 auto;
     padding: 60px 20px 100px 20px;
 }
 
 #wrapper.home {
-    max-width: 70%;
+    max-width: 80%;
     margin: 0 auto;
-    padding: 0px 40px 20px 40px;
+    padding: 0;
 }
 
 .home #avatar {
@@ -432,13 +447,6 @@ i {
     color: #aaa;
 }
 
-.home h1 {
-    font-size: 30px;
-    letter-spacing: -1px;
-    color: #222;
-    font-weight: bold;
-}
-
 .home h2 {
     font: italic 19px/1.3em Georgia, serif;
     color: #bbb;
@@ -488,15 +496,15 @@ i {
     margin-top: 2px;
 }
 
-h3,
 h4,
 h5 {
     color: #333;
 }
 
 h3 {
-    font-size: 20px;
-    font-weight: 400;
+    font: mono;
+    font-size: 16px;
+    font-weight: normal;
 }
 
 h4 {
@@ -604,6 +612,10 @@ img {
 Post List
 =========================================== */
 
+/* #post-list {
+    text-align: right;
+} */
+
 #post-list,
 #archive-list {}
 
@@ -640,6 +652,10 @@ Post List
     padding-top: 100px;
 }
 
+.post-image {
+    text-align: center;
+}
+
 #archive-link {
     display: inline-block;
     font-size: 13px;
@@ -665,6 +681,9 @@ Post List
     margin-top: 100px;
 }
 
+#post-list .meta {
+    padding-right: 2em;
+}
 
 /* Post Page */
 
@@ -917,6 +936,7 @@ h2.month {
 
     h1 {
         font-size: 26px;
+        font-weight: normal;
     }
 
     .post h2.headline {
