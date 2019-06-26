@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/highlight.css">
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/toast.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
 	{{ if eq .Site.Params.iconFont "font-awesome" }}
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css">
@@ -33,3 +34,18 @@
 	<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
 	{{ end }}
 </head>
+
+<div id="overview" class="animated faster">
+	<div class="inner">
+		<div class="grid">
+			<div class="grid__col grid__col--2-of-12 close toggleClose">
+				&times;
+			</div>
+			<div class="grid__col grid__col--4-of-12">
+				<div class="item"><a href="">About</a></div>
+				<div class="item"><a href="">Tags</a></div>
+				<div class="item"><a href="">Archive</a></div>
+			</div>
+		</div>
+	</div>
+</div>

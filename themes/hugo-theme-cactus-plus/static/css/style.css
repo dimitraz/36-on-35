@@ -616,6 +616,45 @@ img {
 
 
 /*=========================================
+Overview
+=========================================== */
+
+#overview {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 6em 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    display: none;
+}
+
+.open {
+    cursor: pointer;
+}
+
+#overview .close {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#overview .item {
+    font-size: 40px;
+    margin-bottom: 1em;
+    display: block;
+}
+
+#overview .item a {
+    color: #fff;
+}
+
+#overview .item a:hover {
+    border-bottom: 3px solid #fff;
+}
+
+/*=========================================
 Post List
 =========================================== */
 

@@ -1,8 +1,16 @@
 <nav class="main-nav">
 	<div class="inner">
-		<a class="title">{{ .Site.Title }}</a>
+		<div class="grid">
 
-		{{ $url := replace .Permalink .Site.BaseURL "" }}
+			<div class="grid__col grid__col--6-of-12">
+				<a href="{{ .Site.BaseURL }}" class="title">{{ .Site.Title }}</a>
+			</div>
+			<div class="grid__col grid__col--6-of-12" style="text-align: right;">
+				<a class="open toggleOpen" style="font-size: 20px; color: #000;"> &#9786; </a>
+			</div>
+		</div>
+
+		<!-- {{ $url := replace .Permalink .Site.BaseURL "" }}
 		{{ if not .IsHome }}
 		<a href='{{ .Site.BaseURL }}'> <span
 				class="arrow">←</span>{{ with .Site.Params.home }}{{ . }}{{ else }}Home{{ end }}</a>
@@ -18,6 +26,6 @@
 		{{ if .Site.Params.enableRSS }}
 		<a class="cta"
 			href="{{ .Site.RSSLink }}">{{ with .Site.Params.subscribe }}{{ . }}{{ else }}Subscribe{{ end }}</a>
-		{{ end }}
+		{{ end }} -->
 	</div>
 </nav>
