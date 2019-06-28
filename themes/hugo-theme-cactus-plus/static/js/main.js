@@ -22,6 +22,7 @@ function retina() {
 	if (!isRetina())
 		return;
 
+
 	$("img.2x").map(function (i, image) {
 
 		var path = $(image).attr("src");
