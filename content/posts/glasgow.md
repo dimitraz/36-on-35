@@ -1,7 +1,7 @@
 ---
 title: "Glasgow on 35mm"
 date: 2019-06-19T21:14:38+01:00
-draft: false
+draft: true
 image: "/images/glasgow/5.jpg"
 tags: ["35mm", "Canon AE-1", "travel", "Glasgow"]
 ---
