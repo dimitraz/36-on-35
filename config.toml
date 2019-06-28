@@ -1,5 +1,5 @@
 # Site settings
-# baseurl = "your_site_url_address"
+# baseurl = "https://dimitraz.github.io/36-on-35/"
 languageCode = "en"
 title = "Sometimes I take photos"
 theme = "hugo-theme-cactus-plus"
