@@ -12,7 +12,7 @@
                 <h2 class="headline">
                     {{ .Date.Format "Jan 2, 2006" }}
 
-                    <span class="tags">
+                    <!-- <span class="tags">
                         {{ with .Params.tags }}
                         {{ if ge (len .) 1 }}
                         {{ range . }}
@@ -20,7 +20,7 @@
                         {{ end }}
                         {{ end }}
                         {{ end}}
-                    </span>
+                    </span> -->
                 </h2>
             </header>
             {{ if .Site.Params.enableToc }}

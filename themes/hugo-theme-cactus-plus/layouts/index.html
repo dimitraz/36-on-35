@@ -3,6 +3,10 @@
 	<body>
 		{{ partial "nav.html" . }}
 
+		<div class="smiley">
+			<img width="120px" src="{{ .Site.BaseURL }}images/smiley.png" alt="">
+		</div>
+
 		<section id="wrapper" class="home">
 			{{ partial "post-list.html"  . }}
 			{{ partial "pagination.html" . }}

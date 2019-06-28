@@ -432,6 +432,22 @@ ul>li {
 
 /* Line Height */
 
+.smiley {
+    position: fixed;
+    right: 10%;
+    top: 30%;
+    width: 120px;
+    z-index: 0;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+.smiley:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
 #post-body,
 p {
     line-height: 1.7;
@@ -483,10 +499,16 @@ i {
 }
 
 .post h2 {
-    font-weight: normal;
+    font-size: 14px;
+    font-family: "NeueHaasUnica-Regular", "Helvetica Neue",
+        Helvetica,
+        Arial,
+        sans-serif;
+    /* color: #333; */
+    margin-bottom: 2em;
 }
 
-.post h2.headline .tags {
+/* .post h2.headline .tags {
     font: normal 13px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: -5px 0 40px 0;
     color: #b2b9be;
@@ -495,7 +517,7 @@ i {
     letter-spacing: 2px;
     margin-top: 5px;
     display: block;
-}
+} */
 
 #post-list h2 {
     font: normal 17px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -623,10 +645,11 @@ Overview
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
     width: 100%;
     height: 100%;
     padding: 6em 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.9);
     color: #fff;
     display: none;
 }
@@ -737,6 +760,58 @@ Post List
 .post {
     margin: auto;
 }
+
+#post-body {
+    text-align: center;
+}
+
+#post-body img {
+    max-height: 700px;
+    width: auto;
+}
+
+#post-body img+img {
+    margin-top: 2em;
+}
+
+#post-body .two {
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+#post-body .two img+img {
+    margin-top: 0;
+}
+
+#post-body .two::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#post-body .two img:last-child {
+    width: 48%;
+    float: right;
+}
+
+#post-body .two img:first-child {
+    width: 48%;
+    float: left;
+}
+
+/* #post-body .two .right {
+    width: 48%;
+    float: right;
+}
+
+#post-body .two .left {
+    width: 48%;
+    float: left;
+}
+
+#post-body .two img {
+    max-width: 100%;
+} */
 
 #post-meta {
     font-size: 13px;
