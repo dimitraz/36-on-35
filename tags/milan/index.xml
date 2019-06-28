@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Milan on Sometimes I take photos</title>
-    <link>/tags/milan/</link>
+    <link>https://dimitraz.github.io/36-on-35/tags/milan/</link>
     <description>Recent content in Milan on Sometimes I take photos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 19 Jun 2019 22:47:51 +0100</lastBuildDate>
     
-	<atom:link href="/tags/milan/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dimitraz.github.io/36-on-35/tags/milan/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Navigli on 35mm</title>
-      <link>/posts/navigli/</link>
+      <link>https://dimitraz.github.io/36-on-35/posts/navigli/</link>
       <pubDate>Wed, 19 Jun 2019 22:47:51 +0100</pubDate>
       
-      <guid>/posts/navigli/</guid>
+      <guid>https://dimitraz.github.io/36-on-35/posts/navigli/</guid>
       <description>This was the last roll of film I took in Milan before moving to Ireland. All taken on my Canon AE-1, probably with some cheap supermarket film.
    </description>
     </item>

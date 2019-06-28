@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Sometimes I take photos</title>
-    <link>/tags/</link>
+    <link>https://dimitraz.github.io/36-on-35/tags/</link>
     <description>Recent content in Tags on Sometimes I take photos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 19 Jun 2019 22:47:51 +0100</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dimitraz.github.io/36-on-35/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>35mm</title>
-      <link>/tags/35mm/</link>
+      <link>https://dimitraz.github.io/36-on-35/tags/35mm/</link>
       <pubDate>Wed, 19 Jun 2019 22:47:51 +0100</pubDate>
       
-      <guid>/tags/35mm/</guid>
+      <guid>https://dimitraz.github.io/36-on-35/tags/35mm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Canon AE-1</title>
-      <link>/tags/canon-ae-1/</link>
+      <link>https://dimitraz.github.io/36-on-35/tags/canon-ae-1/</link>
       <pubDate>Wed, 19 Jun 2019 22:47:51 +0100</pubDate>
       
-      <guid>/tags/canon-ae-1/</guid>
+      <guid>https://dimitraz.github.io/36-on-35/tags/canon-ae-1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Milan</title>
-      <link>/tags/milan/</link>
+      <link>https://dimitraz.github.io/36-on-35/tags/milan/</link>
       <pubDate>Wed, 19 Jun 2019 22:47:51 +0100</pubDate>
       
-      <guid>/tags/milan/</guid>
+      <guid>https://dimitraz.github.io/36-on-35/tags/milan/</guid>
       <description></description>
     </item>
     
