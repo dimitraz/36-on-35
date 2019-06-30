@@ -3,15 +3,90 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://dimitraz.github.io/36-on-35/categories/</loc>
+    <lastmod>2019-06-29T17:57:41+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dimitraz.github.io/36-on-35/tags/</loc>
+    <lastmod>2019-06-29T17:57:41+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dimitraz.github.io/36-on-35/tags/35mm/</loc>
-    <lastmod>2019-06-19T22:47:51+01:00</lastmod>
+    <lastmod>2019-06-29T17:57:41+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://dimitraz.github.io/36-on-35/tags/canon-ae-1/</loc>
-    <lastmod>2019-06-19T22:47:51+01:00</lastmod>
+    <lastmod>2019-06-29T17:57:41+01:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dimitraz.github.io/36-on-35/tags/canon-af35m-ii/</loc>
+    <lastmod>2019-06-29T17:57:41+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dimitraz.github.io/36-on-35/categories/</loc>
+    <lastmod>2019-06-29T17:57:41+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dimitraz.github.io/36-on-35/tags/ireland/</loc>
+    <lastmod>2019-06-29T17:57:41+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dimitraz.github.io/36-on-35/posts/</loc>
+    <lastmod>2019-06-29T17:57:41+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dimitraz.github.io/36-on-35/posts/recently/</loc>
+    <lastmod>2019-06-29T17:57:41+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dimitraz.github.io/36-on-35/</loc>
+    <lastmod>2019-06-29T17:57:41+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dimitraz.github.io/36-on-35/tags/</loc>
+    <lastmod>2019-06-29T17:57:41+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dimitraz.github.io/36-on-35/tags/travel/</loc>
+    <lastmod>2019-06-29T17:57:41+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dimitraz.github.io/36-on-35/posts/london/</loc>
+    <lastmod>2019-06-29T14:01:32+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dimitraz.github.io/36-on-35/tags/tramore/</loc>
+    <lastmod>2019-06-29T14:00:35+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dimitraz.github.io/36-on-35/posts/tramore/</loc>
+    <lastmod>2019-06-29T14:00:35+01:00</lastmod>
   </url>
   
   <url>
@@ -26,24 +101,6 @@
   </url>
   
   <url>
-    <loc>https://dimitraz.github.io/36-on-35/posts/</loc>
-    <lastmod>2019-06-19T22:47:51+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://dimitraz.github.io/36-on-35/</loc>
-    <lastmod>2019-06-19T22:47:51+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://dimitraz.github.io/36-on-35/tags/</loc>
-    <lastmod>2019-06-19T22:47:51+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://dimitraz.github.io/36-on-35/tags/glasgow/</loc>
     <lastmod>2019-06-19T21:14:38+01:00</lastmod>
     <priority>0</priority>
@@ -55,13 +112,18 @@
   </url>
   
   <url>
-    <loc>https://dimitraz.github.io/36-on-35/tags/travel/</loc>
-    <lastmod>2019-06-19T21:14:38+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://dimitraz.github.io/36-on-35/posts/morocco/</loc>
+    <lastmod>2019-05-25T15:40:17+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dimitraz.github.io/36-on-35/categories/</loc>
+    <loc>https://dimitraz.github.io/36-on-35/posts/disposable/</loc>
+    <lastmod>2019-03-19T22:05:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dimitraz.github.io/36-on-35/tags/disposable/</loc>
+    <lastmod>2019-03-19T22:05:11+01:00</lastmod>
     <priority>0</priority>
   </url>
   

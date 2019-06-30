@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tramore on Sometimes I take photos</title>
+    <link>https://dimitraz.github.io/36-on-35/tags/tramore/</link>
+    <description>Recent content in Tramore on Sometimes I take photos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 29 Jun 2019 14:00:35 +0100</lastBuildDate>
+    
+	<atom:link href="https://dimitraz.github.io/36-on-35/tags/tramore/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tramore</title>
+      <link>https://dimitraz.github.io/36-on-35/posts/tramore/</link>
+      <pubDate>Sat, 29 Jun 2019 14:00:35 +0100</pubDate>
+      
+      <guid>https://dimitraz.github.io/36-on-35/posts/tramore/</guid>
+      <description>Some muddy pictures from a foggy day in Tramore.</description>
+    </item>
+    
+  </channel>
+</rss>
