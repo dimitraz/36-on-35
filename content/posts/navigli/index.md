@@ -25,5 +25,5 @@ This was the last roll of film I took in Milan before moving to Ireland. All tak
 
 <div class="two">
     <img src="images/7.jpg">
-    <img src="8.jpg">
+    <img src="images/8.jpg">
 </div>
