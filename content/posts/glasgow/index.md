@@ -11,20 +11,20 @@ The Canon AE-1 was my first ever film camera, which I got almost a decade ago, s
 
 I think the film stock was some pound store Agfa Vista 200.
 
-<img src="images/1.jpg" />
-<img src="images/2.jpg" />
-<img src="images/3.jpg" />
-<img src="images/4.jpg">
-<img src="images/5.jpg">
+<img data-src="images/1.jpg" />
+<img data-src="images/2.jpg" />
+<img data-src="images/3.jpg" />
+<img data-src="images/4.jpg">
+<img data-src="images/5.jpg">
 
-<img src="images/7.jpg">
-<img src="images/8.jpg">
-<img src="images/9.jpg">
-<img src="images/10.jpg">
+<img data-src="images/7.jpg">
+<img data-src="images/8.jpg">
+<img data-src="images/9.jpg">
+<img data-src="images/10.jpg">
 
 <div class="two">
-    <img src="images/11.jpg">
-    <img src="images/6.jpg">
+    <img data-src="images/11.jpg">
+    <img data-src="images/6.jpg">
 </div>
 
-<img src="images/12.jpg">
+<img data-src="images/12.jpg">

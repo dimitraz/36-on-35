@@ -437,7 +437,7 @@ ul>li {
     right: 10%;
     top: 30%;
     width: 120px;
-    z-index: 0;
+    z-index: 200;
     border-radius: 50%;
     -webkit-transition: -webkit-transform .8s ease-in-out;
     transition: transform .8s ease-in-out;
@@ -624,6 +624,17 @@ img {
     border-radius: 3px;
 }
 
+.grid img,
+.post img {
+    opacity: 0;
+    will-change: opacity;
+    transition: all 0.1s;
+}
+
+img.loaded {
+    opacity: 1;
+}
+
 
 /* Made with Cactus Badge */
 
@@ -644,7 +655,7 @@ Overview
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 201;
     width: 100%;
     height: 100%;
     padding: 6em 0;
@@ -722,6 +733,10 @@ Post List
 
 .post-image {
     text-align: center;
+}
+
+.grid.post {
+    min-height: 400px;
 }
 
 #archive-link {

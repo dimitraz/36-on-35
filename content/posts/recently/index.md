@@ -7,13 +7,13 @@ draft = false
 image = "images/recent.jpg"
 +++
 
-<img src="images/1.jpg" />
-<img src="images/9.jpg" />
-<img src="images/2.jpg">
-<img src="images/4.jpg">
-<img src="images/5.jpg">
-<img src="images/6.jpg">
-<img src="images/7.jpg">
-<img src="images/12.jpg">
-<img src="images/13.jpg">
-<img src="images/18.jpg">
+<img data-src="images/1.jpg" />
+<img data-src="images/9.jpg" />
+<img data-src="images/2.jpg">
+<img data-src="images/4.jpg">
+<img data-src="images/5.jpg">
+<img data-src="images/6.jpg">
+<img data-src="images/7.jpg">
+<img data-src="images/12.jpg">
+<img data-src="images/13.jpg">
+<img data-src="images/18.jpg">

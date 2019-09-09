@@ -7,22 +7,22 @@ draft = false
 image = "images/morocco.jpg"
 +++
 
-<img src="images/1.jpg" />
-<img src="images/2.jpg" />
+<img data-src="images/1.jpg" />
+<img data-src="images/2.jpg" />
 
 <div class="two">
-    <img src="images/3.jpg">
-    <img src="images/4.jpg">
+    <img data-src="images/3.jpg">
+    <img data-src="images/4.jpg">
 </div>
 
-<img src="images/5.jpg">
-<img src="images/6.jpg">
-<img src="images/7.jpg">
-<img src="images/8.jpg">
-<img src="images/9.jpg">
-<img src="images/10.jpg">
-<img src="images/12.jpg">
-<img src="images/13.jpg">
-<img src="images/14.jpg">
-<img src="images/15.jpg">
-<img src="images/16.jpg">
+<img data-src="images/5.jpg">
+<img data-src="images/6.jpg">
+<img data-src="images/7.jpg">
+<img data-src="images/8.jpg">
+<img data-src="images/9.jpg">
+<img data-src="images/10.jpg">
+<img data-src="images/12.jpg">
+<img data-src="images/13.jpg">
+<img data-src="images/14.jpg">
+<img data-src="images/15.jpg">
+<img data-src="images/16.jpg">
