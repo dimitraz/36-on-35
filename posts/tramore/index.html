@@ -103,11 +103,11 @@
             <section id="post-body">
                 <p>Some muddy pictures from a foggy day in Tramore.</p>
 
-<p><img src="images/1.jpg" />
-<img src="images/2.jpg" />
-<img src="images/3.jpg" />
-<img src="images/4.jpg">
-<img src="images/5.jpg"></p>
+<p><img data-src="images/1.jpg" />
+<img data-src="images/2.jpg" />
+<img data-src="images/3.jpg" />
+<img data-src="images/4.jpg">
+<img data-src="images/5.jpg"></p>
 
             </section>
         </article>
@@ -127,13 +127,16 @@
 </footer>
     <script src="https://dimitraz.github.io/36-on-35/js/jquery-3.3.1.min.js"></script>
 <script src="https://dimitraz.github.io/36-on-35/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
 <script src="https://dimitraz.github.io/36-on-35/js/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
 
 
 
 
-  
+
 <script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
@@ -146,7 +149,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
 
 

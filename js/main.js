@@ -16,15 +16,11 @@ function isRetina() {
 	return false;
 };
 
-
 function retina() {
-
 	if (!isRetina())
 		return;
 
-
 	$("img.2x").map(function (i, image) {
-
 		var path = $(image).attr("src");
 
 		path = path.replace(".png", "@2x.png");
@@ -34,13 +30,33 @@ function retina() {
 	});
 };
 
-$(document).ready(retina);
+$(document).ready(function () {
+	let images = document.querySelectorAll('[data-src]')
+
+	const interactSettings = {
+		root: document.querySelector('.center'),
+		rootMargin: '0px 0px 200px 0px'
+	};
+
+	function onIntersection(imageEntites) {
+		imageEntites.forEach(image => {
+			if (image.isIntersecting) {
+				observer.unobserve(image.target);
+				image.target.src = image.target.dataset.src;
+				image.target.onload = () => image.target.classList.add('loaded');
+			}
+		});
+	}
+
+	let observer = new IntersectionObserver(onIntersection, interactSettings);
+	images.forEach(image => observer.observe(image));
+	retina();
+});
 
 $('.toggleOpen').click(function () {
 	$('#overview').removeClass("fadeOut")
 		.addClass("fadeIn").toggle();
 });
-
 
 $('#overview').click(function () {
 	$('#overview').removeClass("fadeIn")

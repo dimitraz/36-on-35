@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Sometimes I take photos</title>
+    <title>Sometimes I take photos</title>
     <link>https://dimitraz.github.io/36-on-35/categories/</link>
-    <description>Recent content in Categories on Sometimes I take photos</description>
+    <description>Recent content on Sometimes I take photos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 06 Sep 2019 14:00:35 +0100</lastBuildDate>
@@ -12,12 +12,39 @@
     
     
     <item>
-      <title></title>
-      <link>https://dimitraz.github.io/36-on-35/categories/</link>
+      <title>Holidays</title>
+      <link>https://dimitraz.github.io/36-on-35/posts/holidays/</link>
       <pubDate>Fri, 06 Sep 2019 14:00:35 +0100</pubDate>
       
-      <guid>https://dimitraz.github.io/36-on-35/categories/</guid>
+      <guid>https://dimitraz.github.io/36-on-35/posts/holidays/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Recently</title>
+      <link>https://dimitraz.github.io/36-on-35/posts/recently/</link>
+      <pubDate>Sat, 29 Jun 2019 17:57:41 +0100</pubDate>
+      
+      <guid>https://dimitraz.github.io/36-on-35/posts/recently/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tramore</title>
+      <link>https://dimitraz.github.io/36-on-35/posts/tramore/</link>
+      <pubDate>Sat, 29 Jun 2019 14:00:35 +0100</pubDate>
+      
+      <guid>https://dimitraz.github.io/36-on-35/posts/tramore/</guid>
+      <description>Some muddy pictures from a foggy day in Tramore.</description>
+    </item>
+    
+    <item>
+      <title>Morocco on disposables</title>
+      <link>https://dimitraz.github.io/36-on-35/posts/morocco/</link>
+      <pubDate>Sat, 25 May 2019 15:40:17 +0100</pubDate>
+      
+      <guid>https://dimitraz.github.io/36-on-35/posts/morocco/</guid>
+      <description> </description>
     </item>
     
   </channel>
